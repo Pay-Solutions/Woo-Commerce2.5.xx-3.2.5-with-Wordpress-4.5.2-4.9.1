@@ -1,0 +1,14 @@
+/* === Plugins Upgrader === */
+
+.pst-plugin-changelog-wrapper {
+    display: none;
+}
+
+.pst-plugin-changelog-title {
+    text-transform: uppercase;
+}
+
+.pst-plugin-changelog {
+    background: #fcfcfc;
+    height: 97%;
+}
