@@ -1,7 +1,7 @@
 <?php
 
 include( 'wp-blog-header.php' );
-
+global $wpdb;
  $refno = $_REQUEST['refno'];
  $merchantid = $_REQUEST['merchantid'];
  $total = $_REQUEST['total'];
