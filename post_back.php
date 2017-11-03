@@ -1,6 +1,6 @@
 <?php
 
-include( 'wp-blog-header.php' );
+include( 'wp-load.php' );
 global $wpdb;
  $refno = $_REQUEST['refno'];
  $merchantid = $_REQUEST['merchantid'];
