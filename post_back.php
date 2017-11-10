@@ -1,20 +1,7 @@
 <?php
 
 include( 'wp-load.php' );
-global $wpdb;
- $refno = $_REQUEST['refno'];
- $merchantid = $_REQUEST['merchantid'];
- $total = $_REQUEST['total'];
- $customeremail = $_REQUEST['customeremail'];
- $ref = 'wc-completed';
 
-
-$wpdb->update(
-    'wp_posts',
-    array(
-         'post_status'   => $ref   
-    ),
-    array( 'ID' => $refno )
-); 
-
-?>
+global $woocommerce;
+$order = new WC_Order(15);
+$order->payment_complete();
