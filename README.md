@@ -1,4 +1,4 @@
-# Woo-Commerce2.5.xx-3.1.2-with-Wordpress-4.5.2-4.8.2
+# Woo-Commerce2.5.xx-3.2.1-with-Wordpress-4.5.2-4.8.3
 Paysolutions Payment
 เพิ่มเติม ***
 1.ให้ทำการติดตั้ง Woo-Commerce ในเวอร์ชั่นที่กำหนด ก่อนทำการลง Paysolutions payment 
